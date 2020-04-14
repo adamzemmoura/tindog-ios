@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54D2DF9F2445E6C6007D59B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D2DF9E2445E6C6007D59B0 /* AppDelegate.swift */; };
+		54D2DFA12445E6C6007D59B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D2DFA02445E6C6007D59B0 /* SceneDelegate.swift */; };
+		54D2DFA32445E6C6007D59B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D2DFA22445E6C6007D59B0 /* ViewController.swift */; };
+		54D2DFA62445E6C6007D59B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D2DFA42445E6C6007D59B0 /* Main.storyboard */; };
+		54D2DFA82445E6C7007D59B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54D2DFA72445E6C7007D59B0 /* Assets.xcassets */; };
+		54D2DFAB2445E6C7007D59B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D2DFA92445E6C7007D59B0 /* LaunchScreen.storyboard */; };
+		54D2DFB62445E6C8007D59B0 /* tindog_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D2DFB52445E6C8007D59B0 /* tindog_iosTests.swift */; };
+		54D2DFC12445E6C8007D59B0 /* tindog_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D2DFC02445E6C8007D59B0 /* tindog_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54D2DFB22445E6C8007D59B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54D2DF932445E6C6007D59B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54D2DF9A2445E6C6007D59B0;
+			remoteInfo = "tindog-ios";
+		};
+		54D2DFBD2445E6C8007D59B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54D2DF932445E6C6007D59B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54D2DF9A2445E6C6007D59B0;
+			remoteInfo = "tindog-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54D2DF9B2445E6C6007D59B0 /* tindog-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tindog-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D2DF9E2445E6C6007D59B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54D2DFA02445E6C6007D59B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		54D2DFA22445E6C6007D59B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54D2DFA52445E6C6007D59B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54D2DFA72445E6C7007D59B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54D2DFAA2445E6C7007D59B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54D2DFAC2445E6C7007D59B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D2DFB12445E6C8007D59B0 /* tindog-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tindog-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D2DFB52445E6C8007D59B0 /* tindog_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tindog_iosTests.swift; sourceTree = "<group>"; };
+		54D2DFB72445E6C8007D59B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D2DFBC2445E6C8007D59B0 /* tindog-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tindog-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D2DFC02445E6C8007D59B0 /* tindog_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tindog_iosUITests.swift; sourceTree = "<group>"; };
+		54D2DFC22445E6C8007D59B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54D2DF982445E6C6007D59B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D2DFAE2445E6C8007D59B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D2DFB92445E6C8007D59B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54D2DF922445E6C6007D59B0 = {
+			isa = PBXGroup;
+			children = (
+				54D2DF9D2445E6C6007D59B0 /* tindog-ios */,
+				54D2DFB42445E6C8007D59B0 /* tindog-iosTests */,
+				54D2DFBF2445E6C8007D59B0 /* tindog-iosUITests */,
+				54D2DF9C2445E6C6007D59B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54D2DF9C2445E6C6007D59B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54D2DF9B2445E6C6007D59B0 /* tindog-ios.app */,
+				54D2DFB12445E6C8007D59B0 /* tindog-iosTests.xctest */,
+				54D2DFBC2445E6C8007D59B0 /* tindog-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54D2DF9D2445E6C6007D59B0 /* tindog-ios */ = {
+			isa = PBXGroup;
+			children = (
+				54D2DF9E2445E6C6007D59B0 /* AppDelegate.swift */,
+				54D2DFA02445E6C6007D59B0 /* SceneDelegate.swift */,
+				54D2DFA22445E6C6007D59B0 /* ViewController.swift */,
+				54D2DFA42445E6C6007D59B0 /* Main.storyboard */,
+				54D2DFA72445E6C7007D59B0 /* Assets.xcassets */,
+				54D2DFA92445E6C7007D59B0 /* LaunchScreen.storyboard */,
+				54D2DFAC2445E6C7007D59B0 /* Info.plist */,
+			);
+			path = "tindog-ios";
+			sourceTree = "<group>";
+		};
+		54D2DFB42445E6C8007D59B0 /* tindog-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				54D2DFB52445E6C8007D59B0 /* tindog_iosTests.swift */,
+				54D2DFB72445E6C8007D59B0 /* Info.plist */,
+			);
+			path = "tindog-iosTests";
+			sourceTree = "<group>";
+		};
+		54D2DFBF2445E6C8007D59B0 /* tindog-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54D2DFC02445E6C8007D59B0 /* tindog_iosUITests.swift */,
+				54D2DFC22445E6C8007D59B0 /* Info.plist */,
+			);
+			path = "tindog-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54D2DF9A2445E6C6007D59B0 /* tindog-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54D2DFC52445E6C8007D59B0 /* Build configuration list for PBXNativeTarget "tindog-ios" */;
+			buildPhases = (
+				54D2DF972445E6C6007D59B0 /* Sources */,
+				54D2DF982445E6C6007D59B0 /* Frameworks */,
+				54D2DF992445E6C6007D59B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tindog-ios";
+			productName = "tindog-ios";
+			productReference = 54D2DF9B2445E6C6007D59B0 /* tindog-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54D2DFB02445E6C8007D59B0 /* tindog-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54D2DFC82445E6C8007D59B0 /* Build configuration list for PBXNativeTarget "tindog-iosTests" */;
+			buildPhases = (
+				54D2DFAD2445E6C8007D59B0 /* Sources */,
+				54D2DFAE2445E6C8007D59B0 /* Frameworks */,
+				54D2DFAF2445E6C8007D59B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54D2DFB32445E6C8007D59B0 /* PBXTargetDependency */,
+			);
+			name = "tindog-iosTests";
+			productName = "tindog-iosTests";
+			productReference = 54D2DFB12445E6C8007D59B0 /* tindog-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54D2DFBB2445E6C8007D59B0 /* tindog-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54D2DFCB2445E6C8007D59B0 /* Build configuration list for PBXNativeTarget "tindog-iosUITests" */;
+			buildPhases = (
+				54D2DFB82445E6C8007D59B0 /* Sources */,
+				54D2DFB92445E6C8007D59B0 /* Frameworks */,
+				54D2DFBA2445E6C8007D59B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54D2DFBE2445E6C8007D59B0 /* PBXTargetDependency */,
+			);
+			name = "tindog-iosUITests";
+			productName = "tindog-iosUITests";
+			productReference = 54D2DFBC2445E6C8007D59B0 /* tindog-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54D2DF932445E6C6007D59B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Adam Zemmoura";
+				TargetAttributes = {
+					54D2DF9A2445E6C6007D59B0 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					54D2DFB02445E6C8007D59B0 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 54D2DF9A2445E6C6007D59B0;
+					};
+					54D2DFBB2445E6C8007D59B0 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 54D2DF9A2445E6C6007D59B0;
+					};
+				};
+			};
+			buildConfigurationList = 54D2DF962445E6C6007D59B0 /* Build configuration list for PBXProject "tindog-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54D2DF922445E6C6007D59B0;
+			productRefGroup = 54D2DF9C2445E6C6007D59B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54D2DF9A2445E6C6007D59B0 /* tindog-ios */,
+				54D2DFB02445E6C8007D59B0 /* tindog-iosTests */,
+				54D2DFBB2445E6C8007D59B0 /* tindog-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54D2DF992445E6C6007D59B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D2DFAB2445E6C7007D59B0 /* LaunchScreen.storyboard in Resources */,
+				54D2DFA82445E6C7007D59B0 /* Assets.xcassets in Resources */,
+				54D2DFA62445E6C6007D59B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D2DFAF2445E6C8007D59B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D2DFBA2445E6C8007D59B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54D2DF972445E6C6007D59B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D2DFA32445E6C6007D59B0 /* ViewController.swift in Sources */,
+				54D2DF9F2445E6C6007D59B0 /* AppDelegate.swift in Sources */,
+				54D2DFA12445E6C6007D59B0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D2DFAD2445E6C8007D59B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D2DFB62445E6C8007D59B0 /* tindog_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54D2DFB82445E6C8007D59B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D2DFC12445E6C8007D59B0 /* tindog_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54D2DFB32445E6C8007D59B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54D2DF9A2445E6C6007D59B0 /* tindog-ios */;
+			targetProxy = 54D2DFB22445E6C8007D59B0 /* PBXContainerItemProxy */;
+		};
+		54D2DFBE2445E6C8007D59B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54D2DF9A2445E6C6007D59B0 /* tindog-ios */;
+			targetProxy = 54D2DFBD2445E6C8007D59B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54D2DFA42445E6C6007D59B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54D2DFA52445E6C6007D59B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54D2DFA92445E6C7007D59B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54D2DFAA2445E6C7007D59B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54D2DFC32445E6C8007D59B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54D2DFC42445E6C8007D59B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54D2DFC62445E6C8007D59B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTK6TLNQSV;
+				INFOPLIST_FILE = "tindog-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamzemmoura.tindog-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54D2DFC72445E6C8007D59B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTK6TLNQSV;
+				INFOPLIST_FILE = "tindog-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamzemmoura.tindog-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54D2DFC92445E6C8007D59B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTK6TLNQSV;
+				INFOPLIST_FILE = "tindog-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamzemmoura.tindog-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tindog-ios.app/tindog-ios";
+			};
+			name = Debug;
+		};
+		54D2DFCA2445E6C8007D59B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTK6TLNQSV;
+				INFOPLIST_FILE = "tindog-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamzemmoura.tindog-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tindog-ios.app/tindog-ios";
+			};
+			name = Release;
+		};
+		54D2DFCC2445E6C8007D59B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTK6TLNQSV;
+				INFOPLIST_FILE = "tindog-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamzemmoura.tindog-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tindog-ios";
+			};
+			name = Debug;
+		};
+		54D2DFCD2445E6C8007D59B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTK6TLNQSV;
+				INFOPLIST_FILE = "tindog-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adamzemmoura.tindog-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tindog-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54D2DF962445E6C6007D59B0 /* Build configuration list for PBXProject "tindog-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D2DFC32445E6C8007D59B0 /* Debug */,
+				54D2DFC42445E6C8007D59B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54D2DFC52445E6C8007D59B0 /* Build configuration list for PBXNativeTarget "tindog-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D2DFC62445E6C8007D59B0 /* Debug */,
+				54D2DFC72445E6C8007D59B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54D2DFC82445E6C8007D59B0 /* Build configuration list for PBXNativeTarget "tindog-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D2DFC92445E6C8007D59B0 /* Debug */,
+				54D2DFCA2445E6C8007D59B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54D2DFCB2445E6C8007D59B0 /* Build configuration list for PBXNativeTarget "tindog-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D2DFCC2445E6C8007D59B0 /* Debug */,
+				54D2DFCD2445E6C8007D59B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54D2DF932445E6C6007D59B0 /* Project object */;
+}
